@@ -1,0 +1,20 @@
+{
+  "name": "ga-react-router-component",
+  "version": "1.0.0",
+  "description": "Google Analytics component for react-router-component",
+  "main": "src/index.js",
+  "peerDependencies": {
+    "react-router": "^0.12.x"
+  },
+  "author": "Ahmad Sidiqi",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wali-s/ga-react-router-component.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
