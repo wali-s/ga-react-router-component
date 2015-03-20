@@ -3,7 +3,6 @@ var ga = require('./ga');
 
 
 function analytics() {
-	console.log('yo');
   ga('send', 'pageview');
 }
 

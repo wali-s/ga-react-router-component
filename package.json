@@ -1,6 +1,6 @@
 {
   "name": "ga-react-router-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Analytics component for react-router-component",
   "main": "src/index.js",
   "peerDependencies": {
