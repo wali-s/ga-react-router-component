@@ -1,10 +1,11 @@
 'use strict';
 var ga = require('./ga');
 
-
-function analytics() {
-  ga('send', 'pageview');
-}
-
-
-module.exports = analytics;
+var GoogleAnalytics = (function() {
+  return {
+    trackPageview: function() {
+      ga('send', 'pageview');
+    }
+  }
+})()
+module.exports = GoogleAnalytics;

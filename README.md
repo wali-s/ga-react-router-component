@@ -15,14 +15,17 @@ Based on [ga-react-router](https://github.com/tcoopman/ga-react-router)
 'use strict';
 var React = require('react');
 var Router = require('react-router-component');
-var analytics = require('ga-react-router-component');
+var GoogleAnalytics = require('ga-react-router-component');
 var MainPage = require('../pages/index');
 var UserPage = require('../pages/user');
 var NotFound = require('../pages/not-found');
 
 var App = React.createClass({
   trackPageview: function() {
-    analytics();
+    GoogleAnalytics.trackPageview();
+  },
+  componentDidMount: function() {
+    this.trackPageview();
   },
   render: function() {
     return (
